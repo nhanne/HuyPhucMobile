@@ -1,0 +1,32 @@
+<div class="col-md-5" id="Abigtitle">
+    <div class="row">
+        <div class="col-md-4"><img src="" alt="didongviet">ảnh</div>
+        <a href="#">
+            <div class="col-md-8">tittle</div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-4"><img src="" alt="didongviet">ảnh</div>
+        <a href="#">
+            <div class="col-md-8">tittle</div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-4"><img src="" alt="didongviet">ảnh</div>
+        <a href="#">
+            <div class="col-md-8">tittle</div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-4"><img src="" alt="didongviet">ảnh</div>
+        <a href="#">
+            <div class="col-md-8">tittle</div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-4"><img src="" alt="didongviet">ảnh</div>
+        <a href="#">
+            <div class="col-md-8">tittle</div>
+        </a>
+    </div>
+</div>
