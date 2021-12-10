@@ -8,6 +8,10 @@ body {
     background-color: #ecf0f1;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 
 /* navbar */
 
@@ -83,7 +87,7 @@ nav .navbar-brand:hover,
 }
 
 
-/* row 1 */
+/* slideshow */
 
 ul.banner-slide li {
     list-style: none;
@@ -103,6 +107,9 @@ ul.banner-slide li:hover {
     font-weight: bold;
 }
 
+
+/* tin tức cột 2 */
+
 #news {
     margin-top: 70px;
     border-radius: 15px;
@@ -114,7 +121,7 @@ ul.banner-slide li:hover {
 }
 
 
-/* product */
+/* sản phẩm nổi bật */
 
 #product img {
     width: 100%;
