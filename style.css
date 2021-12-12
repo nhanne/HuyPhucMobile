@@ -123,14 +123,18 @@ ul.banner-slide li:hover {
 
 /* sản phẩm nổi bật */
 
+#product {
+    background-color: white;
+}
+
 #product img {
     width: 100%;
     border-radius: 5px;
 }
 
-#product img:hover {
-    position: relative;
-    bottom: 30px;
+#product a:hover img {
+    transform: scale(0.8);
+    transition: all 0.5s;
 }
 
 #product figcaption {
