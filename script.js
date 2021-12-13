@@ -8,3 +8,10 @@ window.onscroll = function() {
     }
     prevScrollpos = currentScrollPos;
 }
+
+$(document).ready(function() {
+    $('#login').click(function() {
+        window.location.replace("login.html");
+    })
+
+})

@@ -9,6 +9,7 @@
     <link rel="icon" href="picture/icon2.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 </head>
 
 <body>
@@ -31,9 +32,14 @@
                     <li><a href="contact.html">LIÊN HỆ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="search-container">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm.." name="search"></input>
+                            <button type="submit"><i class="fa fa-search" style="color: white;"></i></button>
+                        </form>
+                    </li>
+                    <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 </ul>
             </div>
         </div>
@@ -131,6 +137,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js "></script>
+    <script src="script.js"></script>
     <script>
         //validate contact form//
         $(document).ready(function() {
