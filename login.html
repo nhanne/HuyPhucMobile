@@ -165,7 +165,8 @@
                             <button type="submit"><i class="fa fa-search" style="color: white;"></i></button>
                         </form>
                     </li>
-                    <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> ĐĂNG NHẬP</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> GIỎ HÀNG</a></li>
 
                 </ul>
             </div>
@@ -185,8 +186,10 @@
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
 
-                <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                <button id="btnlogin" class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                <div class="collapse" id="hienthi">đăng nhập thành công !</div>
                 <a href="#" id="forgot_pswd">Forgot password?</a>
+
                 <hr>
                 <!-- <p>Don't have an account!</p>  -->
                 <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign up New Account</button>
@@ -292,6 +295,9 @@
             $('#logreg-forms #cancel_reset').click(toggleResetPswd);
             $('#logreg-forms #btn-signup').click(toggleSignUp);
             $('#logreg-forms #cancel_signup').click(toggleSignUp);
+        })
+        $('#btnlogin').click(function() {
+            alert('Đăng nhập thành công !');
         })
     </script>
 </body>
