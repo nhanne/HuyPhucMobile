@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <link rel="icon" href="picture/icon2.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <style>
+        img {
+            width: 100%;
+        }
+        
+        #anhsanpham img {
+            margin-top: 20px;
+            width: 100%;
+            transition: all .3s ease;
+        }
+        
+        #anhsanpham img:hover {
+            transform: scale(1.5);
+        }
+        
+        #anhsanpham p {
+            display: block;
+            overflow: hidden;
+        }
+        
+        #review {
+            font-size: 150%;
+            line-height: 30px;
+        }
+        
+        .khuyen-mai-hb {
+            margin-bottom: 2px;
+            margin-top: 2px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ef0b0b;
+            font-size: 15px;
+            width: 100%;
+        }
+        
+        .khuyen-mai-hb .tieu-de {
+            background: #e31616;
+            padding: 2px 20px;
+            margin-top: -24px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #ffffff;
+            display: block;
+            max-width: 207px;
+            border-radius: 99px;
+        }
+        
+        .khuyen-mai-hb ul {
+            margin-bottom: 4px;
+            padding: 10px;
+        }
+        
+        .khuyen-mai-hb li {
+            margin: 10px;
+        }
+        
+        ul.comment {
+            list-style: none;
+            display: inline-block;
+            font-size: 120%;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"> HUY PHÚC MOBILE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav ">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="news.html">TIN TỨC</a></li>
+                    <li><a href="produce.html">SẢN PHẨM</a></li>
+                    <li><a href="contact.html">LIÊN HỆ</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="search-container">
+                        <form action="">
+                            <input type="text" placeholder="Tìm kiếm.." name="search"></input>
+                            <button type="submit"><i class="fa fa-search" style="color: white;"></i></button>
+                        </form>
+                    </li>
+                    <li><a id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content" class="container-fluid">
+        <h4><strong>Điện thoại iPhone 13 Pro Max 256GB </strong>
+            <span>
+
+                <i class="fas fa-star" style="color: orange;"></i>
+                <i class="fas fa-star" style="color: orange;"></i>
+                <i class="fas fa-star" style="color: orange;"></i>
+                <i class="fas fa-star" style="color: orange;"></i>
+                <i class="fas fa-star" style="color: orange;"></i>
+            </span>
+            <span> đánh giá <span class="badge">10</span></span><br>
+        </h4>
+
+
+        <!-- dòng 1 -->
+        <div class="row">
+            <div class="col-md-7" id="anhsanpham">
+                <div class="row">
+
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-5.jpg"></p>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-6.jpg"></p>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-11.jpg"></p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-12.jpg"></p>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-7.jpg"></p>
+                    </div>
+                    <div class="col-xs-4">
+                        <p><img src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-xanh-1.jpg"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5" id="des">
+
+                <div class="row">
+
+                    <table class="table table-striped">
+                        <thead>
+                            <h4><strong>Cấu hình Điện thoại iPhone 13 Pro Max 256GB</strong></h4>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>OLED6.7"Super Retina XDR</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td> iOS 15</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>3 camera 12 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>12 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Chip:</td>
+                                <td>
+                                    Apple A15 Bionic</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>6 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Bộ nhớ trong:</td>
+                                <td>
+                                    256 GB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- dòng 2 -->
+        <div class="row">
+            <!-- bài viết đánh giá -->
+            <div class="col-md-7">
+                <div class="container-fluid" id="review">
+
+                    <h3><strong>Bài viết đánh giá</strong></h3>
+                    <h3 style="text-align: justify;">Thiết kế đẳng cấp, sang trọng</h3>
+                    <p style="text-align: justify;">iPhone 13 Pro Max vẫn sẽ kế thừa thiết kế đặc trưng của&nbsp;<a href="#" target="_blank" title="Tham khảo iPhone 12 Series tại Thế Giới Di Động">iPhone 12
+                            Series</a>, vẫn là một sản phẩm với khung viền được hoàn thiện từ thép không gỉ, hai mặt trước sau được trang bị kính cường lực bóng bẩy.</p>
+                    <p style="text-align: justify;">
+                        <a class="preventdefault" href="#" onclick="return false;"><img alt="Thiết kế nguyên khối đẳng cấp - iPhone 13 Pro Max 256GB" data-src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-1.jpg" class=" ls-is-cached lazyloaded" title="Thiết kế nguyên khối đẳng cấp - iPhone 13 Pro Max 256GB"
+                                src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-1.jpg"></a>
+                    </p>
+                    <p style="text-align: justify;">Điểm thay đổi lớn trên 13 Pro Max có thể là phần module camera được làm to hơn khá nhiều, phần cạnh viền máy được vát phẳng sang trọng cùng bốn góc được làm bo cong nhẹ, phủ một lớp mờ giúp hạn chế bám bụi bẩn và vân
+                        tay.
+                    </p>
+                    <p style="text-align: justify;">
+                        <a class="preventdefault" href="#" onclick="return false;"><img alt="Ngoại hình trẻ trung -  iPhone 13 Pro Max 256GB" data-src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-2.jpg" class=" ls-is-cached lazyloaded" title="Ngoại hình trẻ trung -  iPhone 13 Pro Max 256GB"
+                                src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-2.jpg"></a>
+                    </p>
+                    <p style="text-align: justify;">Ngoài ra, iPhone 13 Pro Max cũng sẽ đảm bảo được khả năng&nbsp;
+                        <a href="#" target="_blank" title="Tham khảo giá điện thoại smartphone chống nước chống bụi">kháng nước và
+                            bụi</a>&nbsp;với chuẩn IP68 và sẽ được ra mắt với nhiều tùy chọn màu sắc khác nhau bao gồm một số màu nổi bật như: Vàng, bạc, xanh dương và xám.
+                    </p>
+                    <p style="text-align: justify;">
+                        <a class="preventdefault" href="#" onclick="return false;"><img alt="Khả năng kháng bụi, nước - iPhone 13 Pro Max 256GB" data-src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-3.jpg" class=" ls-is-cached lazyloaded" title="Khả năng kháng bụi, nước - iPhone 13 Pro Max 256GB"
+                                src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-256gb-3.jpg"></a>
+                    </p>
+                    <h3 style="text-align: justify;">Màn hình OLED với thiết kế tai thỏ gọn hơn</h3>
+                    <p style="text-align: justify;">Các thông số màn hình của iPhone 13 Pro Max gồm: Kích thước lớn 6.7 inch, tấm nền Super Retina XDR OLED và độ phân giải 1284 x 2778 Pixels cho mật độ điểm ảnh 458 ppi với khả năng hiển thị màu sắc nét độ chi tiết cao mang tới trải
+                        nghiệm giải trí cực đã.</p>
+
+                    <p style="text-align: justify;">Phần tai thỏ phía trước cũng được&nbsp;<a href="#" target="_blank" title="Tham khảo giá điện thoại smartphone iPhone chính hãng">Apple</a>&nbsp;tinh chỉnh thu gọn khoảng 20% so với thế hệ trước mang đến không gian hiển thị lớn hơn
+                        cho người dùng trải nghiệm.</p>
+
+                    <p style="text-align: justify;">Không chỉ mãn nhãn với màn hình Super Retina XDR, iPhone 13 Pro Max còn được trang bị công nghệ ProMotion, giúp mọi trải nghiệm cảm ứng từ vuốt, chạm, cuộn trang cho đến chơi game đều mượt mà một cách đáng kinh ngạc.</p>
+
+                    <p style="text-align: justify;">Công nghệ ProMotion cực kỳ xịn sò có khả năng tự động điều chỉnh tần số quét từ 10 - 120 Hz tùy thuộc vào tốc độ lướt và nội dung hiển thị. Nhờ đó dù có tần số làm tươi cao nhưng thời lượng pin vẫn hứa hẹn được cải thiện đáng kể.</p>
+                    <p style="text-align: justify;">Ngoài ra, độ sáng màn hình trên iPhone 13 Pro Max được tăng lên 1200 nits khi hiển thị nội dung HDR, tích hợp những tính năng bổ trợ khác như Dolby Vision, True Tone hoặc gam màu rộng P3 mang đến cho người dùng chất lượng
+                        hiển thị sắc nét và chân thực đến từng chi tiết.</p>
+
+                    <p style="text-align: justify;">Xem thêm:&nbsp;<a href="#" target="_blank" title="Công nghệ True Tone là gì?">Công nghệ True Tone là gì?</a></p>
+                    <p style="text-align: justify;">Mặt trước của thiết bị được phủ một lớp Ceramic Shield độc quyền trên của hãng, với độ bền vượt trội, khả năng chống trầy xước cao giúp bảo vệ màn hình&nbsp;
+                        <a href="#" target="_blank" title="Tham khảo giá điện thoại smartphone iPhone chính hãng">iPhone</a>&nbsp;hiệu quả.&nbsp;
+                    </p>
+
+                    <h3 style="text-align: justify;">Cụm camera nâng cấp, hỗ trợ chụp ảnh, quay phim chuyên nghiệp
+                    </h3>
+                    <p style="text-align: justify;">Giống như thế hệ trước, iPhone 13 Pro Max trang bị hệ thống 3 camera sau, nay được nâng cấp toàn diện khi trang bị camera có khẩu độ và kích thước cảm biến siêu lớn, hỗ trợ ống kính len 6P đi cùng chip xử lý hình ảnh ISP mới tích hợp
+                        trên Apple A15 Bionic và thuật toán phần mềm thông minh. Giúp iPhone 13 Pro Max thu sáng tốt hơn tới 2.2 lần ở camera chính, hơn 92% ở camera góc siêu rộng để trở thành chiếc điện thoại chụp đêm xuất sắc nhất hiện nay.
+                    </p>
+
+                    <p style="text-align: justify;"><a href="#" target="_blank" title="Tham khảo giá điện thoại smartphone camera chụp hình góc rộng">Camera góc siêu
+                            rộng</a>&nbsp;của iPhone 13 Pro Max không chỉ chụp được những hình ảnh khung hình rộng mà còn có khả năng lấy nét ở khoảng cách chỉ 2 cm, hỗ trợ tính năng Photographic Styles tích hợp các bộ lọc màu thông minh có thể tăng hoặc
+                        tắt màu mà không ảnh hưởng đến tông màu da giúp người dùng người dùng thoải mái sáng tạo, chỉnh sửa ảnh trong thời gian thực theo ý thích.</p>
+
+                    <p style="text-align: justify;">Với&nbsp;<a href="#" target="_blank" title="Tham khảo giá điện thoại smartphone camera zoom">camera tele</a>, tiêu cự giờ đây đã được tăng lên 77 mm tương đương zoom 3x cho khả năng phóng to hình ảnh và video gấp 3 lần nhưng vẫn giữ
+                        nguyên chất lượng.</p>
+
+                </div>
+            </div>
+            <!-- MUA ONLINE GIẢM SỐC 1.000.000₫ CÒN -->
+            <div class="col-md-5">
+                <div class="panel panel-danger text-center">
+                    <div class="panel-heading">MUA ONLINE GIẢM SỐC 1.000.000₫ CÒN</div>
+                    <div class="panel-body">35.990.000₫ *</div>
+                </div>
+
+                <div class="khuyen-mai-hb">
+                    <span class="tieu-de"><i class="fas fa-gifts"></i> Khuyến mãi đặc biệt</span>
+                    <ol>
+                        <li>Giảm giá 800,000đ khi tham gia thu cũ đổi mới (Không áp dụng kèm giảm giá qua VNPay, Moca)
+                        </li>
+                        <li>Giảm thêm 5% khi mua cùng sản phẩm bất kỳ có giá cao hơn</li>
+                        <li>Giảm 50% giá mua gói bảo hiểm rơi vỡ 6 tháng (trị giá đến 1,000,000đ) </li>
+                        <li>Giảm 50% giá gói cước 1 năm (Vina350/Vina500) cho Sim VinaPhone trả sau (Trị giá đến 3 triệu) </li>
+                    </ol>
+                </div>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <button type="button" class="btn btn-warning" style="width:100%;    background-color: #fb6e2e; margin-bottom: 10px;">MUA NGAY</button>
+                        <div class="col-xs-6">
+                            <button type="button" class="btn btn-primary" style="width:100%;    background-color: #2f80ed;"> MUA TRẢ GÓP 0%<br>
+                                <span>Duyệt hồ sơ trong 5 phút</span></button>
+                        </div>
+                        <div class="col-xs-6">
+                            <button type="button" class="btn btn-primary" style="width:100%;    background-color: #2f80ed;">TRẢ GÓP 0% QUA THẺ <br>
+                                <span>Visa, Mastercard, JCB, Amex</span></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- form-comment -->
+                <div>
+                    <form id="algin-form">
+                        <div class="form-group">
+                            <h4><strong>Bình Luận</strong></h4> <label for="message">Message</label> <textarea name="msg" id="" msg cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group"> <label for="name">Họ Tên</label> <input type="text" name="name" id="fullname" class="form-control"> </div>
+                        <div class="form-group"> <label for="email">Email</label> <input type="text" name="email" id="email" class="form-control"> </div>
+                        <div class="form-group">
+                            <p class="text-secondary">Để đánh giá được duyệt, quý khách vui lòng tham khảo<a href="#">
+                                    Quy định duyệt đánh giá</a></p>
+                        </div>
+                        <div class="form-inline"> <input type="checkbox" name="check" id="checkbx" class="mr-1"> <label for="subscribe">Tôi sẽ giới thiệu sản phẩm này cho bạn bè người thân</label> </div>
+                        <div class="form-group"> <button type="button" id="post" class="btn btn-danger">Post
+                                Comment</button> </div>
+                    </form>
+                </div>
+                <!-- danh sách phản hồi thông tin -->
+
+                <ul class="comment">
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Ngọc</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> Lần đầu khui Seal iPhone 13Promax tại huyphucmobile ẤP 12 - LONG TRUNG - CAI LẬY - TIỀN GIANG. Máy đẹp, không lỗi. Cảm ơn Bạn quản lý (Ms Linh) đã hỗ trợ mình mua sản phẩm này. Mình sẽ ủng hộ thêm khi có nhu cầu mua hàng. Trân
+                            trọng.
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Mạnh Hùng</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> Máy đẹp. Pin trâu. Dùng phải nói là max phê. :)) Dùng hàng của apple là quá chuẩn rồi
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Tôn Thất Hào</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question">Máy đẹp. Pin trâu. Dùng phải nói là max phê. :)) Dùng hàng của apple là quá chuẩn rồi
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Điền</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question">Máy đẹp. Pin trâu. Dùng phải nói là max phê. :)) Dùng hàng của apple là quá chuẩn rồi
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Phan Văn Linh</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> May mắn không cọc trước nhưng vô tình mua được máy sớm. Chất lượng Apple khỏi bàn. Nhân viên phục vụ vui vẻ, tận tình ( Quản lý và bạn Khoa bán hàng).
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>TRẦN VĂN TIẾN</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question">Niceeee </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Huy Huỳnh</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question">Nhân viên tư vấn nhiệt tình tận tâm 100₫ Có mua gì sẽ ủng hộ thế giới di động trong tg tới </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Nguyễn Hửu Thức</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> Nhân viên tư vấn nhiệt tình Sản phẩm đẹp nhưng không biết thời gian dài như thế nào </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Trần Quốc Nhật Khoa</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> Mua máy ở 590 tôn Đức thắng đà nẵng rất hài lòng.nhất là thái độ phục vụ của các nhân viên rất nhiệt tình và chuyên nghiệp </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <a>
+                                <strong>Lê Nguyên Thế Phương</strong>
+                                <span>
+
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                    <i class="fas fa-star" style="color: orange;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="question"> huyphucmobile gọi dt lên báo có ip13 pro max xanh dương 256GB chút chạy lên thì báo là còn 4 cái bán hết cho khách! thất vọng quá đang cần gấp xài! tin tưởng huyphucmobile mua rất nhiều dt ở đây rồi </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- foooter -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 ">
+                <img src="picture/logo.png" alt="" style="width: 100%; margin: 0;">
+
+                <p>Công ty Cổ phần Đầu tư Huy Phúc Mobile (HPM) là nhà bán lẻ số 1 Việt Nam về doanh thu và lợi nhuận, với mạng lưới hơn 4.500 cửa hàng trên toàn quốc. Ngoài ra, HPM đã mở rộng ra thị trường nước ngoài với chuỗi bán lẻ điện thoại và điện
+                    máy tại Campuchia và đầu tư vào chuỗi nhà thuốc An Khang.
+                </p>
+            </div>
+            <div class="col-md-3 col-xs-4">
+                <h3>Địa Chỉ</h3>
+                <hr class="d-sm-none" />
+                <p>828 Sư Vạn Hạnh - Quận 10 - Thành Phố Hồ Chí Minh</p><br>
+                <p>357 Lê Hồng Phong, Phường 2, Quận 10, Thành phố Hồ Chí Minh 700000</p>
+            </div>
+            <div class="col-md-3 col-xs-4">
+                <h3>Dịch Vụ</h3>
+                <hr class="d-sm-none" />
+                <ul>
+                    <li><a href="#">31 ngày dùng thử phụ kiện miễn phí</a></li>
+                    <li>
+                        <a href="#">Giảm 50% giá gói Bảo Hành Vàng – “Vào nước, rơi vỡ… vẫn đổi mới”</a>
+                    </li>
+                    <li>
+                        <a href="#">SIM “Tám” Viettel - không cần nạp tiền suốt 12 tháng</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="col-md-3 col-xs-4">
+                <h3>Hot Line</h3>
+                <hr class="d-sm-none" />
+
+                <p class="fs-ftrtit" style="font-size: 15px;">Tư vấn mua hàng (Miễn phí)</p>
+                <a href="tel:18006601" title="">1800 6601 </a> <span>(Nhánh 1)</span>
+                <p class="fs-ftrtit">Hỗ trợ kỹ thuật</p>
+                <a href="tel:18006601" title="">1800 6601 </a><span>(Nhánh 2)</span>
+
+
+            </div>
+        </div>
+        <div class="text-center" style="padding: 20px;">&copy; huyphucmobile.com.vn</div>
+    </footer>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
